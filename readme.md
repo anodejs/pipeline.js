@@ -40,6 +40,7 @@ example
   server.listen(9999, function() {
     local_pipeline.run({ data: 1, remoteSteps: [2], remoteHost: 'http://127.0.0.1:9999'}, function(err, result) {
       console.log('final result: %d', result);
+      server.close();
     });
   });
 
