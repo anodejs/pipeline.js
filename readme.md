@@ -1,5 +1,5 @@
-#pipline.js
-node.js async pipline with remote execution support
+#pipeline.js
+node.js async pipeline with remote execution support
 
 example
 =======
